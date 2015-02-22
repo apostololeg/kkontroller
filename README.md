@@ -1,6 +1,7 @@
 # kkontroller
 Key controller for your web-page.
 Just set class(`.control` by default) to all active blocks.
+
 All the rest will do `kkontroller`.
 
 ## Initialize
