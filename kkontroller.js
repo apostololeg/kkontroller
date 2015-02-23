@@ -15,7 +15,7 @@ $(function() {
         this.domElem = $('<div>');
         this.setCurrent(this.getActive());
 
-        $(document).on('keydown', this._onKeyDown.bind(this));
+        $(document).on('keydown', $.throttle(this._onKeyDown, 100, this));
 
     };
 
