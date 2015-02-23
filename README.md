@@ -13,3 +13,11 @@ var controller = new keyController();
 * `move` – focus moving to nearest element.
 * `enter` – changed scope to child.
 * `out` – changed scope to parent.
+
+```js
+controller.domElem.on({
+  move: fn(),
+  enter: fn(),
+  out: fn()
+});
+```
